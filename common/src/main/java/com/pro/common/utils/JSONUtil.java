@@ -1,4 +1,4 @@
-package com.pro.utils;
+package com.pro.common.utils;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -11,7 +11,6 @@ import lombok.extern.slf4j.Slf4j;
  * @author yxwn
  */
 
-@Slf4j
 public class JSONUtil {
     private static final ObjectMapper mapper = new ObjectMapper();
     static {

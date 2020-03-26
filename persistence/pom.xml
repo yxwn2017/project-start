@@ -8,7 +8,7 @@
         <artifactId>pro-start-parent</artifactId>
         <groupId>com.project.start</groupId>
         <version>0.0.1-SNAPSHOT</version>
-<!--        <relativePath>../pom.xml</relativePath>-->
+<!--        <relativePath></relativePath>-->
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -18,11 +18,12 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <!--        <dependency>-->
-        <!--            <groupId>com.easemob.oa</groupId>-->
-        <!--            <artifactId>oa-server-models</artifactId>-->
-        <!--            <version>${project.version}</version>-->
-        <!--        </dependency>-->
+        <dependency>
+            <groupId>com.project.start</groupId>
+            <artifactId>pro-models</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>

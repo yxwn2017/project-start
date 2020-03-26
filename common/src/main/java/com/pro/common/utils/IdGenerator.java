@@ -1,4 +1,4 @@
-package com.pro.utils;
+package com.pro.common.utils;
 
 import com.fasterxml.uuid.EthernetAddress;
 import com.fasterxml.uuid.Generators;
