@@ -7,9 +7,20 @@
         <groupId>com.project.start</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>models</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>pro-models</artifactId>
+    <name>pro-models</name>
+    <description>pro-models</description>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.project.start</groupId>
+            <artifactId>pro-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

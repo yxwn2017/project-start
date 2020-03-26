@@ -6,7 +6,7 @@
         <artifactId>pro-start-parent</artifactId>
         <groupId>com.project.start</groupId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
+<!--        <relativePath>../pom.xml</relativePath>-->
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -16,6 +16,11 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>com.project.start</groupId>
+            <artifactId>pro-servers</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
