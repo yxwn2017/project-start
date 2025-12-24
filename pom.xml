@@ -32,7 +32,7 @@
         <spring.boot.version>2.2.5.RELEASE</spring.boot.version>
         <lombok.version>1.16.4</lombok.version>
         <influxdb-java.version>2.9</influxdb-java.version>
-        <commons-lang3.version>3.5</commons-lang3.version>
+        <commons-lang3.version>3.18.0</commons-lang3.version>
         <fasterxml-uuid.version>3.1.4</fasterxml-uuid.version>
         <guava.version>23.0</guava.version>
 <!--        <tika.version>1.8</tika.version>-->
